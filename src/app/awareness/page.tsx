@@ -88,6 +88,35 @@ export default function AwarenessPage() {
               />
             </div>
           </div>
+          <div className="grid grid-cols-3 gap-4 w-full mt-4">
+            <div className="flex items-center justify-center rounded p-2">
+              <Image
+                src="/poster-1.png"
+                alt="IBS Awareness Poster 1"
+                width={350}
+                height={160}
+                className="rounded"
+              />
+            </div>
+            <div className="flex items-center justify-center rounded p-2">
+              <Image
+                src="/poster-2.png"
+                alt="IBS Awareness Poster 2"
+                width={350}
+                height={160}
+                className="rounded"
+              />
+            </div>
+            <div className="flex items-center justify-center rounded p-2">
+              <Image
+                src="/poster-3.png"
+                alt="IBS Awareness Poster 3"
+                width={350}
+                height={160}
+                className="rounded"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </main>
