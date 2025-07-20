@@ -21,7 +21,7 @@ export default function Home() {
     <main className="px-4 sm:px-8 md:px-16 lg:px-32">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20 rounded-xl mb-8">
-        <div className="container mx-auto px-12 flex flex-col md:flex-row items-center gap-8">
+        <div className="container mx-auto px-12 flex flex-col lg:flex-row items-center gap-8">
           <div className="max-w-3xl flex-1">
             <h1 className="text-5xl font-bold">
               Irritable Bowel Syndrome Awareness
@@ -116,7 +116,7 @@ export default function Home() {
         </div>
       </Section>
 
-      <Section title="Why IBS Awareness is Needed in India?">
+      <Section title="Need of IBS Awareness in India?">
         <div className="bg-white p-6 rounded-lg shadow-md">
           <p className="text-gray-700 mb-4">
             Irritable Bowel Syndrome (IBS) affects an estimated 10-20% of the

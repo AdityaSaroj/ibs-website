@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function AwarenessPage() {
   return (
-    <main className="px-4 sm:px-8 md:px-16 lg:px-32 mb-8">
+    <main className="px-4 sm:px-8 md:px-16 xl:px-32 mb-8">
       <h1 className="text-4xl font-bold mb-8 text-blue-800">
         Awareness Activities
       </h1>
@@ -40,80 +40,187 @@ export default function AwarenessPage() {
             information about IBS management and treatment options.
           </li>
         </ul>
-        <div className="flex flex-col items-center gap-4 mt-12 mb-6">
-          <div className="w-full flex items-center justify-center rounded p-2 mb-2">
-            <Image
-              src="/awareness-1.jpg"
-              alt="Awareness of IBS by Shraddha Saroj"
-              width={550}
-              height={160}
-              className="rounded"
-            />
+        <div className="flex flex-col items-center gap-12 mt-12 mb-6">
+          {/* First row */}
+          <div className="relative w-full hidden xl:flex items-center justify-center">
+            <div className="absolute left-4 top-1/2 -translate-y-1/2">
+              <div className="flex flex-col items-center">
+                <Image
+                  src="/awareness-6.jpeg"
+                  alt="Awareness of IBS by Shraddha Saroj"
+                  width={250}
+                  height={250}
+                  className="rounded-lg shadow-md"
+                />
+                <span className="mt-2 text-sm text-gray-600 text-center">
+                  Attending International Nutricon 2023
+                </span>
+              </div>
+            </div>
+            <div className="relative z-10">
+              <div className="flex flex-col items-center">
+                <Image
+                  src="/awareness-1.jpg"
+                  alt="Awareness of IBS by Shraddha Saroj"
+                  width={650}
+                  height={650}
+                  className="rounded-xl shadow-xl"
+                />
+                <span className="mt-2 text-sm text-gray-600 text-center">
+                  Gastroenterology Department, KGMU
+                </span>
+              </div>
+            </div>
+            <div className="absolute right-4 top-1/2 -translate-y-1/2">
+              <div className="flex flex-col items-center">
+                <Image
+                  src="/awareness-4.jpg"
+                  alt="Awareness of IBS by Shraddha Saroj"
+                  width={250}
+                  height={250}
+                  className="rounded-lg shadow-md"
+                />
+                <span className="mt-2 text-sm text-gray-600 text-center">
+                  Attending IBS Patients
+                </span>
+              </div>
+            </div>
           </div>
-          <div className="grid grid-cols-4 gap-4 w-full">
-            <div className="flex items-center justify-center rounded p-2">
+
+          {/* First row - mobile */}
+          <div className="flex flex-col items-center gap-8 xl:hidden">
+            <div className="flex flex-col items-center">
               <Image
-                src="/awareness-2.jpg"
+                src="/awareness-6.jpeg"
                 alt="Awareness of IBS by Shraddha Saroj"
-                width={240}
-                height={300}
-                className="rounded"
+                width={200}
+                height={200}
+                className="rounded-lg shadow-md"
               />
+              <span className="mt-2 text-sm text-gray-600 text-center">
+                Attending International Nutricon 2023
+              </span>
             </div>
-            <div className="flex items-center justify-center rounded p-2">
+            <div className="flex flex-col items-center">
               <Image
-                src="/awareness-3.jpg"
+                src="/awareness-1.jpg"
                 alt="Awareness of IBS by Shraddha Saroj"
-                width={240}
-                height={300}
-                className="rounded"
+                width={400}
+                height={400}
+                className="rounded-xl shadow-xl"
               />
+              <span className="mt-2 text-sm text-gray-600 text-center">
+                Gastroenterology Department, KGMU
+              </span>
             </div>
-            <div className="flex items-center justify-center rounded p-2">
+            <div className="flex flex-col items-center">
               <Image
                 src="/awareness-4.jpg"
                 alt="Awareness of IBS by Shraddha Saroj"
-                width={240}
-                height={300}
-                className="rounded"
+                width={200}
+                height={200}
+                className="rounded-lg shadow-md"
               />
-            </div>
-            <div className="flex items-center justify-center rounded p-2">
-              <Image
-                src="/awareness-5.jpg"
-                alt="Awareness of IBS by Shraddha Saroj"
-                width={240}
-                height={300}
-                className="rounded"
-              />
+              <span className="mt-2 text-sm text-gray-600 text-center">
+                Attending IBS Patients
+              </span>
             </div>
           </div>
-          <div className="grid grid-cols-3 gap-4 w-full mt-4">
-            <div className="flex items-center justify-center rounded p-2">
+
+          {/* Second row */}
+          <div className="relative w-full hidden xl:flex items-center justify-center">
+            <div className="absolute left-4 top-1/2 -translate-y-1/2">
+              <div className="flex flex-col items-center">
+                <Image
+                  src="/awareness-2.jpg"
+                  alt="Awareness of IBS by Shraddha Saroj"
+                  width={250}
+                  height={250}
+                  className="rounded-lg shadow-md"
+                />
+                <span className="mt-2 text-sm text-gray-600 text-center">
+                  Weight Measurement
+                </span>
+              </div>
+            </div>
+            <div className="relative z-10">
               <Image
                 src="/poster-1.png"
                 alt="IBS Awareness Poster 1"
-                width={350}
-                height={160}
-                className="rounded"
+                width={650}
+                height={650}
+                className="rounded-xl shadow-xl"
               />
             </div>
-            <div className="flex items-center justify-center rounded p-2">
+            <div className="absolute right-4 top-1/2 -translate-y-1/2">
+              <div className="flex flex-col items-center">
+                <Image
+                  src="/awareness-3.jpg"
+                  alt="Awareness of IBS by Shraddha Saroj"
+                  width={250}
+                  height={250}
+                  className="rounded-lg shadow-md"
+                />
+                <span className="mt-2 text-sm text-gray-600 text-center">
+                  Height Measurement
+                </span>
+              </div>
+            </div>
+          </div>
+
+          {/* Second row - mobile */}
+          <div className="flex flex-col items-center gap-8 xl:hidden">
+            <div className="flex flex-col items-center">
+              <Image
+                src="/awareness-2.jpg"
+                alt="Awareness of IBS by Shraddha Saroj"
+                width={200}
+                height={200}
+                className="rounded-lg shadow-md"
+              />
+              <span className="mt-2 text-sm text-gray-600 text-center">
+                Weight Measurement
+              </span>
+            </div>
+            <div className="flex flex-col items-center">
+              <Image
+                src="/poster-1.png"
+                alt="IBS Awareness Poster 1"
+                width={400}
+                height={400}
+                className="rounded-xl shadow-xl"
+              />
+            </div>
+            <div className="flex flex-col items-center">
+              <Image
+                src="/awareness-3.jpg"
+                alt="Awareness of IBS by Shraddha Saroj"
+                width={200}
+                height={200}
+                className="rounded-lg shadow-md"
+              />
+              <span className="mt-2 text-sm text-gray-600 text-center">
+                Height Measurement
+              </span>
+            </div>
+          </div>
+
+          {/* Third row - centered single image */}
+          <div className="flex justify-center w-full">
+            <div className="flex items-center justify-center">
               <Image
                 src="/poster-2.png"
                 alt="IBS Awareness Poster 2"
-                width={350}
-                height={160}
-                className="rounded"
+                width={650}
+                height={650}
+                className="hidden xl:block rounded-xl shadow-xl"
               />
-            </div>
-            <div className="flex items-center justify-center rounded p-2">
               <Image
-                src="/poster-3.png"
-                alt="IBS Awareness Poster 3"
-                width={350}
-                height={160}
-                className="rounded"
+                src="/poster-2.png"
+                alt="IBS Awareness Poster 2"
+                width={400}
+                height={400}
+                className="xl:hidden rounded-xl shadow-xl"
               />
             </div>
           </div>

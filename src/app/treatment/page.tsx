@@ -1,9 +1,20 @@
+import Image from "next/image";
+
 export default function TreatmentPage() {
   return (
     <main className="px-4 sm:px-8 md:px-16 lg:px-32">
       <h1 className="text-4xl font-bold mb-8 text-blue-800">
         Treatment & Lifestyle Modification
       </h1>
+      <div className="flex justify-center items-center my-8">
+        <Image
+          src="/poster-3.png"
+          alt="IBS Treatment Poster"
+          width={700}
+          height={500}
+          className="rounded-lg shadow-lg p-4 bg-white border border-blue-100"
+        />
+      </div>
       <div className="grid md:grid-cols-2 gap-8 mb-8">
         <div className="bg-white p-6 rounded-lg shadow-md">
           <h2 className="text-2xl font-semibold mb-4">
