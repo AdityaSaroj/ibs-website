@@ -8,9 +8,9 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "IBS Awareness - KGMU Research Initiative",
+  title: "IBS Awareness by Shraddha Saroj",
   description:
-    "A comprehensive resource for understanding Irritable Bowel Syndrome (IBS), featuring research conducted at King George's Medical University.",
+    "A comprehensive resource for understanding Irritable Bowel Syndrome (IBS), featuring research conducted by Shraddha Saroj, a dedicated researcher in the field.",
   keywords: [
     "IBS",
     "Irritable Bowel Syndrome",
